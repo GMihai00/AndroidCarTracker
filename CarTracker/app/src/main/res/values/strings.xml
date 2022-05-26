@@ -1,0 +1,105 @@
+<resources>
+    <string name="app_name">CarTracker</string>
+    <string name="appTitle">CarTracker</string>
+    <string name="SelectAction">Select car</string>
+    <string name="SelectBoxLabel1">CarMake:</string>
+    <string name="SelectBoxLabel2">Model:</string>
+    <string name="SelectBoxLabel3">Engine:</string>
+    <string name="HomeScreenButton">Go To HomeScreen</string>
+    <string name="HomeName">Home</string>
+    <string name="InsuranceButton">Insurances</string>
+    <string name="TaxesAndDuesButton">Taxes And Dues</string>
+    <string name="CarConsumablesButton">Car Consumables</string>
+    <string name="ChangeCarButton">Change Car</string>
+    <string name="InsurancesScreen">Insurances</string>
+    <string name="ExpireDateLabel">Expire Date</string>
+    <string name="TypesLabel">Types</string>
+    <string name="RCALinkButton">RCA</string>
+    <string name="NoDateLabel">-- NO DATE --</string>
+    <string name="ITPButton">ITP</string>
+    <string name="VignetaButton">Vigneta</string>
+    <string name="UpdateButton">Update</string>
+    <string name="BackButton">Back</string>
+    <string name="CarConsumablesScreen">Car Consumables</string>
+    <string name="OilButton">Oil</string>
+    <string name="EndDate">End Date</string>
+    <string name="StartDate">Start Date</string>
+    <string name="OilSwitch">Oil</string>
+    <string name="DistributionSwitch">Distribution</string>
+    <string name="TaxesAndDuesScreen">Taxes And Dues</string>
+    <string name="CubicCapacityLabel">Cubic capacity:</string>
+    <string name="MissingValue">-</string>
+    <string name="YearlyFees">Yearly Fee:</string>
+    <string name="DistributionButton">Distribution</string>
+    <string-array name="CarMakes">
+        <item>VW</item>
+        <item>Audi</item>
+        <item>BMW</item>
+        <item>Toyota</item>
+    </string-array>
+    <string-array name="VWModels">
+        <item>Jetta</item>
+        <item>Golf</item>
+        <item>Arteon</item>
+        <item>Tiguan</item>
+    </string-array>
+    <string-array name="BMWModels">
+        <item>E90</item>
+        <item>E30</item>
+        <item>E60</item>
+        <item>M4</item>
+    </string-array>
+    <string-array name="AudiModels">
+        <item>A4</item>
+        <item>A7</item>
+        <item>RS8</item>
+        <item>E-Tron</item>
+    </string-array>
+    <string-array name="ToyotaModels">
+        <item>Camry</item>
+        <item>Supra</item>
+        <item>Corola</item>
+    </string-array>
+    <string-array name="Engines">
+        <item>1.2 TSI</item>
+        <item>2.0 TDI</item>
+        <item>2.0 TSI</item>
+        <item>3.0 TDI</item>
+        <item>1.6 TSI</item>
+    </string-array>
+    <string-array name="Oils">
+        <item>Castrol 5W30</item>
+        <item>Castrol 10W40</item>
+        <item>Motul 8100 5W30</item>
+        <item>Castrol 5W30</item>
+        <item>Motul 5100 10W40</item>
+    </string-array>
+    <string-array name="Distributions">
+        <item>Belt</item>
+        <item>Chain</item>
+        <item>Chain</item>
+        <item>Chain</item>
+        <item>Belt</item>
+    </string-array>
+    <string-array name="Insurances">
+        <item>RCA</item>
+        <item>ITP</item>
+        <item>VIGNETA</item>
+    </string-array>
+    <integer-array name="DistributionLongevity">
+        <item>6</item>
+        <item>36</item>
+        <item>12</item>
+        <item>48</item>
+        <item>12</item>
+    </integer-array>
+    <integer-array name="OilLongevity">
+        <item>6</item>
+        <item>3</item>
+        <item>6</item>
+        <item>8</item>
+        <item>4</item>
+    </integer-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

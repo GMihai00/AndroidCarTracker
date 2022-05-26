@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_settings"
+    tools:context=".InsurancesActivity">
+
+    <TextView
+        android:id="@+id/InsurancesScreen"
+        android:layout_width="224dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="76dp"
+        android:text="@string/InsurancesScreen"
+        android:textColor="#ffffff"
+        android:textSize="44sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/ExpireDateLabel"
+        android:layout_width="169dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="40dp"
+        android:text="@string/ExpireDateLabel"
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/InsurancesScreen" />
+
+    <TextView
+        android:id="@+id/TypesLabel"
+        android:layout_width="98dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="40dp"
+        android:text="@string/TypesLabel"
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toStartOf="@+id/ExpireDateLabel"
+        app:layout_constraintHorizontal_bias="0.796"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/InsurancesScreen" />
+
+    <Button
+        android:id="@+id/RCAButton"
+        android:layout_width="153dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="52dp"
+        android:background="@drawable/button_background"
+        android:text="@string/RCALinkButton"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TypesLabel" />
+
+    <TextView
+        android:id="@+id/ExpireRca"
+        android:layout_width="160dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="48dp"
+        android:text="@string/NoDateLabel"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/RCAButton"
+        app:layout_constraintTop_toBottomOf="@+id/ExpireDateLabel" />
+
+    <Button
+        android:id="@+id/ITPButton"
+        android:layout_width="160dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/button_background"
+        android:text="@string/ITPButton"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/RCAButton" />
+
+    <TextView
+        android:id="@+id/ExpireITP"
+        android:layout_width="160dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="48dp"
+        android:text="@string/NoDateLabel"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/ITPButton"
+        app:layout_constraintTop_toBottomOf="@+id/ExpireRca" />
+
+    <Button
+        android:id="@+id/VignetaButton"
+        android:layout_width="160dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/button_background"
+        android:text="@string/VignetaButton"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ITPButton" />
+
+    <TextView
+        android:id="@+id/ExpireVigneta"
+        android:layout_width="160dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="48dp"
+        android:text="@string/NoDateLabel"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/VignetaButton"
+        app:layout_constraintTop_toBottomOf="@+id/ExpireITP" />
+
+    <Button
+        android:id="@+id/UpdateButton"
+        android:layout_width="237dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/button_background"
+        android:text="@string/UpdateButton"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.459"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/VignetaButton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

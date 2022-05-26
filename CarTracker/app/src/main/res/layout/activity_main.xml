@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:foregroundTint="#FDFDFD"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/appTitle"
+        android:layout_width="246dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="56dp"
+        android:gravity="center"
+        android:text="@string/appTitle"
+        android:textColor="#ffffff"
+        android:textSize="46sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/SelectAction"
+        android:layout_width="198dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="56dp"
+        android:text="@string/SelectAction"
+        android:textColor="#ffffff"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appTitle" />
+
+    <TextView
+        android:id="@+id/SelectBoxLabel1"
+        android:layout_width="190dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="@dimen/LabelSpacer"
+        android:text="@string/SelectBoxLabel1"
+        android:textColor="#ffffff"
+        android:textSize="28sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SelectAction" />
+
+    <TextView
+        android:id="@+id/SelectBoxLabel2"
+        android:layout_width="187dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="@dimen/LabelSpacer"
+        android:text="@string/SelectBoxLabel2"
+        android:textColor="#ffffff"
+        android:textSize="28sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SelectBoxLabel1" />
+
+    <TextView
+        android:id="@+id/SelectBoxLabel3"
+        android:layout_width="187dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="@dimen/LabelSpacer"
+        android:text="@string/SelectBoxLabel3"
+        android:textColor="#ffffff"
+        android:textSize="28sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SelectBoxLabel2" />
+
+    <Button
+        android:id="@+id/HomeScreenButton"
+        android:layout_width="263dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="84dp"
+        android:background="@drawable/button_background"
+        android:text="@string/HomeScreenButton"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.453"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SelectBoxLabel3" />
+
+    <Spinner
+        android:id="@+id/carMakeSpinner"
+        android:layout_width="207dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="4dp"
+        android:background="#ffffff"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/SelectBoxLabel1"
+        app:layout_constraintTop_toTopOf="@+id/SelectBoxLabel1" />
+
+    <Spinner
+        android:id="@+id/modelSpinner"
+        android:layout_width="207dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="40dp"
+        android:background="#ffffff"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.692"
+        app:layout_constraintStart_toEndOf="@+id/SelectBoxLabel2"
+        app:layout_constraintTop_toBottomOf="@+id/carMakeSpinner" />
+
+    <Spinner
+        android:id="@+id/engineSpinner"
+        android:layout_width="207dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="#ffffff"
+        android:textColor="#000000"
+        app:layout_constraintHorizontal_bias="0.764"
+        app:layout_constraintStart_toEndOf="@+id/SelectBoxLabel3"
+        app:layout_constraintTop_toBottomOf="@+id/modelSpinner" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
